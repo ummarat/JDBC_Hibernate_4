@@ -19,11 +19,11 @@
 
 
         <property name = "hibernate.connection.username">
-            volia
+            root
         </property>
 
         <property name = "hibernate.connection.password">
-            kaLash_z10
+            root
         </property>
         
         <property name="connection.pool_size">
