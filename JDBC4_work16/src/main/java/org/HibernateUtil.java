@@ -15,7 +15,7 @@ public class HibernateUtil {
     static {
         try {
              factory = new Configuration()
-                    .configure("D:\\JavaProjects\\Cyberbionic\\JDBC_Hibernate\\Les_4\\JDBC4_work16\\src\\main\\resources\\hibernate.cfg.xml")
+                    .configure()
                     .buildSessionFactory();
         } catch (HibernateException e) {
             e.printStackTrace();
